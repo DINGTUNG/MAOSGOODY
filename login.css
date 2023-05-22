@@ -1,0 +1,176 @@
+.section_login {
+    width: 100%;
+}
+
+.section_login .login_container {
+    width: 360px;
+    margin: auto;
+    padding: 65px;
+}
+
+.login_container .title_wrap {
+    text-align: center;
+}
+
+.login_container .title_wrap .title_icon {
+    width: 35px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.login_container .title_wrap .title_icon img {
+    width: 100%;
+}
+
+.login_container .title_wrap .title_en {
+    font-size: 42px;
+    font-weight: 500;
+    color: #82E600;
+    letter-spacing: 0.25em;
+    padding-left: 8px;
+    padding-bottom: 15px;
+}
+
+.login_container .title_wrap .title_ch {
+    font-size: 20px;
+    font-weight: 400;
+    color: #82E600;
+    letter-spacing: 0.15em;
+    padding-bottom: 50px;
+}
+
+.login_container .form_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 20px;
+}
+
+.form_wrap .account_wrap,
+.form_wrap .password_wrap {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+}
+
+.form_wrap .account_wrap .account_input,
+.form_wrap .password_wrap .password_input {
+    width: 100%;
+    border: none;
+    padding: 0 5px;
+    background-color: transparent;
+
+}
+
+.form_wrap .account_wrap .account_input::placeholder,
+.form_wrap .password_wrap .password_input::placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #BFBFBF;
+}
+
+.form_wrap .account_wrap .account_icon,
+.form_wrap .password_wrap .password_icon {
+    padding: 19px 22px;
+}
+
+.form_wrap .account_wrap .account_icon i,
+.form_wrap .password_wrap .password_icon i {
+    font-size: 18px;
+    color: #82E600;
+}
+
+.login_container .form_wrap .helper_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_wrap .helper_wrap .remember_wrap label input {
+    vertical-align: middle;
+}
+
+.form_wrap .helper_wrap .remember_wrap label span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #BFBFBF;
+    vertical-align: middle;
+}
+
+.form_wrap .helper_wrap .forget_wrap a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #898989;
+}
+
+.button_wrap {
+    text-align: center;
+    padding: 20px 0 35px;
+}
+
+.button_wrap button {
+    width: 190px;
+    box-sizing: border-box;
+    border: 1px solid #82E600;
+    color: #82E600;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button_wrap button:hover {
+    background-color: #82E600;
+    color: white;
+}
+
+.others_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #BFBFBF;
+    padding-bottom: 50px;
+}
+
+.others_wrap .others_text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #BFBFBF;
+    letter-spacing: 1px;
+    padding: 35px 0 20px;
+}
+
+.others_wrap .others_iconlist {
+    display: flex;
+    gap: 36px;
+}
+
+.others_wrap .others_iconlist i {
+    display: inline-block;
+    width: 70px;
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #82E600;
+    border-radius: 50%;
+    color: #82E600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.others_wrap .others_iconlist i:hover {
+    color: white;
+    background-color: #82E600;
+}
+
+.others_wrap .others_iconlist .fa-brands.fa-apple {
+    font-size: 26px;
+}

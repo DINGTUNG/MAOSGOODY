@@ -1,0 +1,150 @@
+* {
+    font-family: "Lexend Deca", "Lato", "Quicksand", "Noto Sans TC", sans-serif;
+    /* outline: solid red 1px; */
+}
+
+::selection {
+    background: #82E600;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    padding-top: 80px;
+}
+
+.main_header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.main_header .container {
+    display: flex;
+    align-items: center;
+    padding: 24px 50px;
+    margin: auto;
+}
+
+.main_header .container .logo {
+    width: 190px;
+    margin-right: auto;
+}
+
+.main_header .container .logo img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main_header .container .nav_list {
+    display: flex;
+    align-items: center;
+    padding-right: 22px;
+
+}
+
+.main_header .container .nav_list li {
+    padding: 0px 16px;
+
+}
+
+.main_header .container .nav_list a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main_header .container .nav_button {
+    display: flex;
+    align-items: center;
+}
+
+.main_header .container .nav_button li {
+    width: 24px;
+    padding-left: 18px;
+}
+
+.main_header .container .nav_button img {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+.main_footer {
+    width: 100%;
+    background-color: #82E600;
+}
+
+.main_footer .footer_container {
+    width: 1048px;
+    margin: auto;
+
+}
+
+.footer_container .footer_list {
+    display: flex;
+    gap: 90px;
+    padding: 60px 0 100px;
+}
+
+.footer_container .footer_list .logo {
+    width: 164px;
+}
+
+.footer_container .footer_list .logo img {
+    width: 100%;
+}
+
+.footer_container .footer_list .info p {
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    line-height: 33px;
+    margin-top: -8px;
+}
+
+.footer_container .footer_list .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.footer_container .footer_list .nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer_container .footer_list .follow {
+    margin-left: auto;
+}
+
+.footer_container .footer_list .follow a {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 18px;
+    transition: 0.2s;
+}
+
+.footer_container .footer_list .follow a:hover {
+    color: #00890E;
+}
+
+.footer_container .footer_copyright {
+    padding-bottom: 20px;
+}
+
+.footer_container .footer_copyright p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: white;
+}
