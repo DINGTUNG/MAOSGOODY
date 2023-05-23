@@ -186,6 +186,22 @@
     border-radius: 50%;
 }
 
+.product_wrap .product_card .card_label_gold {
+    width: 72px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    background-color: #E2D28A;
+    line-height: 18px;
+    position: absolute;
+    top: 180px;
+    left: 185px;
+    padding: 18px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 50%;
+}
+
 .section_page .page_container {
     display: flex;
     justify-content: center;

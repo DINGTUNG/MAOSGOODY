@@ -203,6 +203,7 @@
     font-size: 18px;
     border: 1px solid #D6D6D6;
     text-align: center;
+    cursor: pointer;
 }
 
 .product_info_wrap .quantity_select .quantity_btn .number {
