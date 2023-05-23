@@ -11,9 +11,21 @@
     width: 61%;
     margin-left: auto;
     padding-right: 50px;
+    position: relative;
 }
 
 .banner_container .banner_pic img {
+    width: 100%;
+}
+
+.banner_container .banner_pic .banner_deco {
+    width: 19%;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+
+.banner_container .banner_pic .banner_deco img {
     width: 100%;
 }
 
@@ -49,16 +61,6 @@
     letter-spacing: 1px;
 }
 
-.banner_container .banner_deco {
-    width: 152px;
-    position: absolute;
-    top: 40px;
-    left: 422px;
-}
-
-.banner_container .banner_deco img {
-    width: 100%;
-}
 
 .section_about {
     width: 100%;
@@ -501,4 +503,20 @@
 
 .contact_container .contact_buttonlist a i {
     font-size: 24px;
+}
+
+/*---------跑馬燈-----------*/
+.marquee {
+    overflow: hidden;
+    background-color: #82E600;
+}
+
+.marquee-item {
+    flex: 0 0 100vw;
+    padding: 30px 20px;
+}
+
+.marquee-item img {
+    display: block;
+    width: 100%;
 }
