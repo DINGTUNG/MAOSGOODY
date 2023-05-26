@@ -506,17 +506,54 @@
 }
 
 /*---------跑馬燈-----------*/
-.marquee {
+.section_newsticker {
     overflow: hidden;
+    padding: 30px 0;
     background-color: #82E600;
 }
 
-.marquee-item {
-    flex: 0 0 100vw;
-    padding: 30px 20px;
+.newsticker_list {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.marquee-item img {
-    display: block;
-    width: 100%;
+.newsticker_content.first {
+    animation: scroll 20s linear infinite;
+    padding: 0 20px;
 }
+
+.newsticker_content.second {
+    padding: 0 20px;
+    animation: scroll2 20s linear infinite;
+    animation-delay: -10s;
+    /* background-color: red; */
+}
+
+
+.newsticker_content img {
+    width: 100vw;
+    vertical-align: top;
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes scroll2 {
+    from {
+        transform: translateX(0%)
+    }
+
+    to {
+        transform: translateX(-200%)
+    }
+}
+
+/*---------跑馬燈-----------*/
