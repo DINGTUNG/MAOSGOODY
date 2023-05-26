@@ -518,14 +518,14 @@
 }
 
 .newsticker_content.first {
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
     padding: 0 20px;
 }
 
 .newsticker_content.second {
     padding: 0 20px;
-    animation: scroll2 20s linear infinite;
-    animation-delay: -10s;
+    animation: scroll2 30s linear infinite;
+    animation-delay: -15s;
     /* background-color: red; */
 }
 
