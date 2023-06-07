@@ -3,9 +3,10 @@
 }
 
 .section_login .login_container {
-    width: 360px;
+    width: 80%;
+    max-width: 360px;
     margin: auto;
-    padding: 65px;
+    padding: 65px 0;
 }
 
 .login_container .title_wrap {
@@ -42,7 +43,7 @@
 .login_container .form_wrap {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 100%;
     gap: 20px;
 }
 
