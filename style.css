@@ -89,7 +89,6 @@ body {
 .main_footer .footer_container {
     width: 80%;
     margin: auto;
-    /* outline: solid red 1px; */
 }
 
 .footer_container .footer_list {
@@ -128,7 +127,6 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
-
 
 .footer_container .footer_list .follow a {
     color: white;
@@ -261,11 +259,9 @@ body {
         justify-content: center;
         transition: 1s;
         opacity: 0;
-
     }
 
     .main_header .container .nav_button li {
-
         width: 30px;
         padding: 0px 30px;
     }
@@ -415,5 +411,4 @@ body {
         line-height: 1.5;
         color: white;
     }
-
 }
