@@ -32,14 +32,6 @@ p {
     position: relative;
 }
 
-.story_container .story_bg {
-    /* width: 1146px;
-    position: absolute;
-    top: 260px;
-    left: 38%;
-    z-index: -1; */
-}
-
 .story_container .story_bg img {
     width: 100%;
 }
@@ -576,7 +568,6 @@ p {
 
     .faith_cardlist .faith_card .card_pic img {
         width: 100%;
-
     }
 
     .faith_cardlist .faith_card .card_text .card_title {
