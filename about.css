@@ -1,5 +1,5 @@
 h2 {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 500;
     color: #82E600;
     line-height: 1.7;
@@ -33,11 +33,11 @@ p {
 }
 
 .story_container .story_bg {
-    width: 1146px;
+    /* width: 1146px;
     position: absolute;
     top: 260px;
     left: 38%;
-    z-index: -1;
+    z-index: -1; */
 }
 
 .story_container .story_bg img {
@@ -62,7 +62,6 @@ p {
     flex-direction: column;
     justify-content: center;
     gap: 40px;
-    padding-left: 8%;
 }
 
 .effort_container {
@@ -75,17 +74,18 @@ p {
     justify-content: space-between;
     position: absolute;
     bottom: -25px;
+    z-index: -1;
     overflow: hidden;
 }
 
 .effort_container .bg_text .bg_mao {
-    width: 248px;
-    margin-left: -50px;
+    width: 148px;
+    margin-left: -40px;
 }
 
 .effort_container .bg_text .bg_dou {
-    width: 240px;
-    margin-right: -50px;
+    width: 140px;
+    margin-right: -40px;
 }
 
 .effort_container .bg_mao img,
@@ -94,7 +94,7 @@ p {
 }
 
 .effort_container .effort_wrap {
-    width: 74%;
+    width: 80%;
     margin: auto;
     padding-bottom: 200px;
 }
@@ -111,15 +111,15 @@ p {
 .effort_wrap .effort_text {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 50px 0 0 28%;
+    gap: 30px;
+    padding: 100px 0 0 0;
 }
 
 .effort_container .effort_rotate {
     width: 150px;
     position: absolute;
     bottom: 30px;
-    right: 200px;
+    right: 12%;
 
     animation: rotate;
     animation-duration: 8s;
@@ -146,9 +146,9 @@ p {
 }
 
 .faith_container {
-    padding: 70px 0;
+    padding: 70px 0 0;
     position: relative;
-
+    overflow: hidden;
 }
 
 .faith_container .faith_title {
@@ -156,24 +156,25 @@ p {
 }
 
 .faith_container .faith_cardlist {
-    width: 74%;
-    display: flex;
-    justify-content: space-between;
+    width: 80%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
     margin: auto;
-    padding: 50px 0;
+    padding: 0 0;
 }
 
 .faith_cardlist .faith_card {
-    width: 144px;
-    padding: 10px;
+    width: 190px;
+    padding: 40px 0;
     position: relative;
-    /* outline: solid red 1px; */
     text-align: center;
+    margin: auto;
 }
 
 .faith_cardlist .faith_card .card_circle {
-    width: 120px;
-    height: 120px;
+    width: 155px;
+    height: 155px;
     background-color: #fff;
     border-radius: 50%;
     margin: 10px auto 0;
@@ -182,7 +183,7 @@ p {
 .faith_cardlist .faith_card .card_pic {
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 35px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -197,13 +198,14 @@ p {
 }
 
 .faith_container .faith_article {
-    width: 40%;
+    width: 80%;
     margin: auto;
     padding: 30px 0 120px;
 }
 
 .faith_container .faith_bottompic {
-    width: 1040px;
+    width: 81%;
+    min-width: 768px;
     margin: auto;
     position: relative;
 }
@@ -214,20 +216,27 @@ p {
 }
 
 .faith_container .faith_bottompic .deco_text {
-    font-size: 44px;
+    font-size: 30px;
     font-weight: 500;
     color: #82E600;
     writing-mode: vertical-rl;
     letter-spacing: 0.45em;
     position: absolute;
-    top: -140px;
+    top: -90px;
     left: 60px;
 }
 
 
 @media screen and (1024px > width) {
     .story_container {
-        padding: 30px 0 60px;
+        padding: 30px 0 40px;
+    }
+
+    .story_container .story_wrap .story_text {
+        gap: 30px;
+        width: 89%;
+        margin: auto;
+        padding-top: 30px;
     }
 
     .story_container .story_bg {
@@ -248,13 +257,38 @@ p {
         top: 80%;
         left: 60%;
     }
-}
 
+    .faith_container {
+        padding: 50px 0 0;
+    }
+}
 
 
 /*---------768px以上，1024px以下-----------*/
 
 @media screen and (1024px > width >=768px) {
+
+    h2 {
+        font-size: 28px;
+        font-weight: 500;
+        color: #82E600;
+        line-height: 1.7;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 400;
+        color: black;
+        letter-spacing: 4px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2;
+        letter-spacing: 0.8px;
+    }
 
     .story_container .story_wrap {
         display: flex;
@@ -264,15 +298,21 @@ p {
     }
 
     .story_container .story_wrap .story_pic {
-        width: 46%;
+        width: 80%;
     }
+
+
+    .story_container .story_wrap .story_text {
+        padding-left: 8%;
+    }
+
 
     .story_container .story_bg {
         display: block;
-        width: 1146px;
+        width: 800px;
         position: absolute;
-        top: 260px;
-        left: 38%;
+        top: 160px;
+        left: 45%;
         z-index: -1;
     }
 
@@ -280,14 +320,47 @@ p {
         width: 100%;
     }
 
+    .effort_container .bg_text .bg_mao {
+        width: 178px;
+        margin-left: -30px;
+    }
+
+    .effort_container .bg_text .bg_dou {
+        width: 170px;
+        margin-right: -30px;
+    }
+
     .effort_container .effort_wrap {
         display: flex;
-        width: 74%;
+        width: 80%;
         margin: auto;
         padding-bottom: 200px;
     }
-}
 
+    .effort_wrap .effort_pic {
+        width: 50%;
+    }
+
+    .effort_wrap .effort_pic .pic_down {
+        width: 68%;
+    }
+
+    .effort_wrap .effort_pic .pic_up {
+        width: 40%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+    }
+
+    .effort_wrap .effort_text {
+        gap: 40px;
+        padding: 6% 0 0 0;
+    }
+
+    .effort_container .effort_rotate {
+        right: 16%;
+    }
+}
 
 
 /*---------1024px以上-----------*/
@@ -324,16 +397,14 @@ p {
 
     .story_container {
         overflow: hidden;
-        padding: 30px 0 200px;
+        padding: 30px 0 250px;
         position: relative;
-        outline: solid red 1px;
     }
 
     .story_container .story_bg {
         width: 1146px;
-        /* margin-left: 38%; */
         position: absolute;
-        top: 35%;
+        top: 33%;
         left: 38%;
         z-index: -1;
     }
@@ -397,14 +468,15 @@ p {
 
     .effort_container .effort_wrap {
         display: flex;
-        width: 74%;
+        width: 80%;
         margin: auto;
         padding-bottom: 200px;
     }
 
     .effort_wrap .effort_pic {
         position: relative;
-        margin-top: -60px;
+        margin-top: -70px;
+
     }
 
     .effort_wrap .effort_pic .pic_down {
@@ -434,7 +506,7 @@ p {
         width: 150px;
         position: absolute;
         bottom: 30px;
-        right: 200px;
+        right: 16%;
 
         animation: rotate;
         animation-duration: 8s;
@@ -518,7 +590,8 @@ p {
     }
 
     .faith_container .faith_bottompic {
-        width: 1040px;
+        width: 81%;
+        max-width: 1040px;
         margin: auto;
         position: relative;
     }
