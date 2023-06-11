@@ -19,10 +19,6 @@
     margin: auto;
 }
 
-/* .banner_container .banner_bg img {
-    width: 100%;
-} */
-
 .banner_container .banner_text {
     position: absolute;
     top: 35%;
@@ -97,11 +93,6 @@
     color: #82E600;
 }
 
-.product_container .product_wrap {
-    /* display: flex;
-    padding: 0 50px 100px; */
-}
-
 .product_wrap .product_pic_wrap .main_pic {
     width: 100%;
     padding-bottom: 35px;
@@ -127,7 +118,6 @@
 .product_container .product_info_wrap {
     display: flex;
     flex-direction: column;
-    /* padding-left: 50px; */
 }
 
 .product_container .product_info_wrap .information {
@@ -320,8 +310,6 @@
         border: none;
     }
 
-    .product_container .product_wrap {}
-
     .section_others .others_container .others_list {
         width: 100%;
         display: flex;
@@ -425,7 +413,6 @@
         padding: 100px 20px 0;
         border-bottom: 1px solid #D6D6D6;
         position: relative;
-        outline: solid red 1px;
     }
 
     .product_container .nav_wrap .nav_list {
@@ -462,17 +449,50 @@
         padding: 0 0 100px;
     }
 
+    .product_info_wrap .information {
+        width: 90%;
+        margin: auto;
+    }
+
+    .product_info_wrap .information .info_main {
+        text-align: left;
+    }
+
+    .product_info_wrap .information .info_text {
+        padding: 18px 0;
+    }
+
+    .product_info_wrap .information .info_note {
+        justify-content: start;
+    }
+
+    .product_info_wrap .quantity_select {
+        width: 90%;
+        margin: auto;
+    }
+
+    .product_info_wrap .quantity_select .quantity_btn {
+        justify-content: start;
+    }
+
+    .product_info_wrap .cart_button {
+        width: 90%;
+        margin: auto;
+    }
+
+    .product_info_wrap .cart_button a {
+        width: 60%;
+    }
+
     .section_others .others_container .others_list {
-        width: 800px;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         margin: auto;
     }
 
-    .section_others .others_container .others_list {
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
+    .others_container .others_list .others_card {
+        width: 30%;
     }
 
     .others_container .others_list .others_card:nth-child(3) {
@@ -536,7 +556,7 @@
     }
 
     .section_product .product_container {
-        width: 1140px;
+        max-width: 1140px;
         margin: auto;
         display: flex;
         padding: 100px 20px 0;
