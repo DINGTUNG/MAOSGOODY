@@ -152,16 +152,14 @@ body {
 
 /*-------小於1024px-------*/
 
-@media screen and (1024px > width) {
+@media screen and (max-width: 1023px) {
     #menu_switch:checked+.main_header .container .nav_list {
-        /* display: block; */
         left: 0;
         opacity: 1;
         transition: .7s;
     }
 
     #menu_switch:checked+.main_header .container .nav_button {
-        /* display: block; */
         left: 0;
         opacity: 1;
         transition: .7s;

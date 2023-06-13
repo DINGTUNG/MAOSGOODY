@@ -751,7 +751,7 @@
 
 /*---------1024px以上-----------*/
 
-@media screen and (width >=1024px) {
+@media screen and (min-width: 1024px) {
     .banner_container {
         padding: 40px 0;
     }

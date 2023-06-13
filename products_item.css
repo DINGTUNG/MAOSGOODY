@@ -290,7 +290,7 @@
 }
 
 
-@media screen and (1024px > width) {
+@media screen and (max-width: 1023px) {
     .section_banner .banner_container {
         display: none;
     }
@@ -392,7 +392,7 @@
 
 }
 
-@media screen and (1024px > width >=768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .section_banner .banner_container {
         display: block;
     }
@@ -505,7 +505,7 @@
 
 }
 
-@media screen and (width >=1024px) {
+@media screen and (min-width: 1024px) {
 
     .section_banner .banner_container {
         max-width: 100%;
