@@ -45,6 +45,7 @@ body {
     vertical-align: top;
 }
 
+
 .main_header .container .nav_list li {
     padding: 0px 16px;
 
@@ -57,6 +58,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     transition: 0.25s;
+
 }
 
 .main_header .container .nav_list a:hover {
@@ -278,7 +280,7 @@ body {
 
 /*-------1024px以上-------*/
 
-@media screen and (width >=1024px) {
+@media screen and (min-width: 1024px) {
 
     .main_header {
         background-color: rgba(255, 255, 255, 0.92);
