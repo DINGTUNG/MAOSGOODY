@@ -390,9 +390,19 @@ select {
     .form_email_wrap,
     .form_company_wrap,
     .form_contacttime_wrap {
+        width: 75%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .name_label,
+    .tel_label,
+    .email_label,
+    .company_label,
+    .contacttime_label,
+    .message_label {
+        padding: 0 0 0;
     }
 
     .contacttime_select {
@@ -401,9 +411,14 @@ select {
     }
 
     .form_message_wrap {
+        width: 75%;
         display: flex;
         align-items: start;
         justify-content: space-between;
+    }
+
+    .message_label {
+        padding: 10px 0 0;
     }
 
     .message_content .message_textarea {

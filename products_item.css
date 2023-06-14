@@ -109,6 +109,12 @@
 
 .product_wrap .product_pic_wrap .pic_list .sub_pic {
     width: 80px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.product_wrap .product_pic_wrap .pic_list .sub_pic:hover {
+    opacity: 0.6;
 }
 
 .product_wrap .product_pic_wrap .pic_list .sub_pic img {
